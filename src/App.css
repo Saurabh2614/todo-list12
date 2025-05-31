@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.center-container {
+  height: 500px;
+  width: 350px;
+}
+.list-item {
+  display: flex;
+  max-width: 500px;
+  min-width: 50px;
+  border: 1px solid red;
+  border-radius: 10px;
+  gap: 5px;
+  padding: 5px;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 10px;
+}
+.s {
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  padding: 5px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-box-todo {
+  border: 2px solid yellow;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+.add-btn {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(19, 178, 241);
+
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
